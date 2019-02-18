@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />		
+		<title>TELEPHONE & Co-Contactez-Nous</title>	
+		<link rel="stylesheet" type="text/css" href="css/main.css">	
+	</head>
+	<body>	
+		<div id="header">
+			<img id="logo_site" src="../image/logo.png" alt="logo"/>
+			<p>
+				Leader des sites de vente de smartphones ;) 
+			</p>
+			<div id="barre_outil">
+				<input id="barre_recherche" type="text" />
+				<input id="bouton_recherche" type="submit" value="Recherche"/>
+			</div>	
+		</div>
+		<nav>
+			<ul>
+				<li><a class="menu" href="../index.html">Acceuil</a></li>
+				<li><a class="menu" href="../catalogue/index.html">Catalogue</a></li>
+				<li><a class="menu" href="../caracteristique_produit/index.html">Comparatifs</a><li>
+				<li><a class="menu" href="../gallerie/index.html">Gallerie</a><li>
+				<li><a class="menu" href="index.html">Contactez-Nous</a><li>
+			</ul>	
+		</nav>
+		<div id="corps_page">
+				
+			<div id="conteneur">
+				<div class="conteneur_gauche">
+				<div>
+					<label for="civilite">Civilité</label>
+					<select name="civilite" id="civilite">
+						<option name="madame" id="madame">Madame</option>
+						<option name="Monsieur" id="monsieur">Monsieur</option>
+					</select>
+				</div>
+				<div class="conteneur_identite">
+					<div class="nom">
+						<label for="nom">Nom : </label><br />
+						<input class="nom" type="text" name="nom" id="nom" placeholder="Entrez votre nom ici" required />
+					</div>
+								
+					<div class="prenom">
+						<label for="prenom">Prénom : </label><br />
+						<input class="prenom" type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom ici" required />
+					</div>	
+							
+					<div>
+						<label for="email">E-mail : </label><br />
+						<input type="email" name="email" id="email" placeholder="Adresse électronique" />
+					</div>
+							
+					<div>
+						<label for="numero">Numéro de téléphone : </label><br />
+						<input type="tel" name="numero" id="numero" placeholder="Ex: +123456789" />
+					</div>
+				</div>
+				
+				<div class="radio">
+					Vous prefériez être recontacté par : <br />
+					<label for="rep_email">Email</label>
+					<input type="radio" name="reponse" value="rep_email" id="rep_email" />
+							
+					<label for="rep_telephone">Téléphone </label>
+					<input type="radio" name="reponse" value="rep_telephone" id="rep_telephone" />	
+				</div>
+			</div>
+					
+			<div class="conteneur_droite">
+				<div>
+					<label for="objet">Objet :</label><br />
+					<input type="text" name="objet" id="objet" />
+				</div>
+					
+				<div class="message">
+					<label for="question">Posez votre question ici : </label><br />
+					<textarea name="question" id="question" placeholder="Bonjour,"></textarea>
+				</div>
+			</div>
+		</div>
+				
+		<div class="envoyer">
+			<input type="submit" value="Envoyer" />
+		</div>	
+		</form>
+		
+		<a href="../index.html">Ou retourner sur la page d'acceuil</a>
+		</div>
+		<div id="footer" >
+			<div id="contact">
+				<h3>
+					E-MAILS:
+				</h3>
+				<a href="#email">rahimceleste@gmail.com</a>
+				<a href="#email">aissataouatt@gmail.com</a>
+			</div>
+			<hr id="bas"/>
+			<div id="reseau_social">
+				<h3>
+					RESEAUX SOCIAUX:
+				</h3>
+				<a href="https://www.facebook.com">facbook</a>
+				<a href="https://www.twitter.com">twitter</a>
+				<a href="https://wwww.instagram.com">instagram</a>
+			</div>
+			<hr id="bas2" />
+			<div id="maps">
+				<h3>
+					MAPS:
+				</h3>
+				<iframe 
+					style="border: 0;" 
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2710.207049454749!2d-1.5729033!3d47.2125309!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805ec0fcda6c4cb%3A0xd620ca38dafa1e9a!2s2+Rue+La+Motte+Picquet%2C+44100+Nantes!5e0!3m2!1sfr!2sfr!4v1423244007186"
+					width="500" height="280" 
+					frameborder="0">
+				</iframe>
+			</div>
+		</div>
+	</body>
+</html>

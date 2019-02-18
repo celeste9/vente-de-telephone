@@ -1,0 +1,132 @@
+body {
+	margin:0px;
+}
+
+body > #retour {
+	position:fixed;
+	right:40px;
+	bottom:20px;
+	opacity: 0.6;
+   filter(opacity=60);
+}
+
+#header {
+	background-color:#0B2161;
+	height:150px;
+	width:100%;
+	
+}
+
+img#logo_site {	/* TAILLE DU LOGO */
+	position:left;
+	height:150px;
+	width:200px;
+}
+
+h3 {
+	display:block;
+	text-align:center;
+}
+
+p {
+    position:absolute;
+	top:20px;
+	left:280px;
+	text-align:center;
+	color:white;
+	font-family:Comic Sans MS;
+	font-size:35px;
+}
+
+
+
+nav{
+	height:40px;
+	width:100%;
+	background-color:#0B2161;
+	position:sticky;
+	top:0px;
+	left:0px;
+	left:0px;
+	z-index:1;
+}
+
+#header > #barre_outil {
+	position:absolute;
+	top:123px;
+	right:0px;
+}
+
+li {
+	display:inline-block;
+	padding-left:50px;
+	padding-top:15px;
+}
+
+a.menu:link 
+{ 
+	color:white;
+	text-decoration:none; 
+} 
+
+a.menu {
+	color:white;
+}
+
+hr {
+	width:96%;
+	margin-left:2%;
+}
+
+#deroulante {
+	margin-left:40%;
+}
+
+#footer {
+	height:520px;
+	width:100%;
+	background-color:#E9E6E6;
+}
+
+#bas {
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+}
+
+#bas2 {
+	width:50%;
+	margin-left:25%;
+	margin-left:25%;
+}
+
+iframe {
+	margin-left:15%;
+	margin-right:15%;
+}
+
+strong {
+	display:inline-block;
+	border:1px solid red;
+	width:130px;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+#image1 {
+	display:inline-block;
+	padding:10px;
+}
+
+#image2{
+	display:inline-block;
+	padding:10px;
+}
+
+#image3 {
+	display:inline-block;
+	padding:10px;
+}
+
